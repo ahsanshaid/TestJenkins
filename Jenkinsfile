@@ -3,13 +3,13 @@ pipeline {
   stages {
     stage('Build Bar') {
       steps {
-        bat 'Build.bat'
+        bat 'D:\\Tutorials\\Jenkins\\Build.bat'
       }
     }
 
     stage('Deploy on Sandbox') {
       steps {
-        bat 'DeploySandbox.bat'
+        bat 'D:\\Tutorials\\Jenkins\\DeploySandbox.bat'
       }
     }
 
