@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        withAnt(installation: 'Build.xml', jdk: '%JAVA_HOME%')
+        bat 'D:\\Tutorials\\Jenkins\\Build.bat'
       }
     }
 
