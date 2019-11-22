@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        withAnt(installation: '%ANT_HOME%')
+        bat 'D:\\Tutorials\\Jenkins\\BuildBar.bat'
       }
     }
 
