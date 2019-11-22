@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        withAnt()
+        withAnt(installation: 'Build.xml')
       }
     }
 
