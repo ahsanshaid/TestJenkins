@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Deploy on SandBox') {
+      steps {
+        bat 'D:\\Tutorials\\Jenkins\\DeploySandbox.bat'
+      }
+    }
+
   }
 }
